@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="form" class="form__container">
+        <input
+          id="titleInput"
+          class="form__item input-taskTitle"
+          type="text"
+          placeholder="Título"
+        />
+        <textarea
+          id="descriptionInput"
+          class="form__item input-taskDescription"
+          cols="40"
+          rows="6"
+          placeholder="Descripción"
+        ></textarea>
+        <button id="createTaskBtn" class="form__item form__btn">
+          Crear tarea
+        </button>
+      </div>
+      <div id="tasksContainer" class="tasks__container"></div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b9661a3045.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
